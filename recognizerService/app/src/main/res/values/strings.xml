@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Smart Recorder</string>
+
+    <string name="speech_activation_default_label">Speak</string>
+
+    <string name="speech_activation_button">Button</string>
+    <string name="speech_activation_movement">Movement</string>
+    <string name="speech_activation_nfc">NFC Scan</string>
+    <string name="speech_activation_camera">Camera</string>
+    <string name="speech_activation_clap">Clap</string>
+    <string name="speech_activation_speak">Speak Hello</string>
+    <string name="activity">Smart Voice Recorder</string>
+    <string name="folder">Open Recordings</string>
+    <string name="commands">Add New Command</string>
+    <string name="btn_activation">Activate</string>
+    <string name="speech_activation_notification_listening">Listening for </string>
+    <string name="speech_activation_notification_title">Speech Activation</string>
+    <string name="action_color_solid">Solid Color</string>
+    <string name="action_color_gradient">Gradient</string>
+    <string name="action_sound_usage">Sound Used from</string>
+</resources>

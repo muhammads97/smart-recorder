@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".commands.CommandSetter"
+    android:background="@drawable/black">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+
+        android:id="@+id/newCommand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="98dp"
+        android:layout_marginEnd="11dp"
+        android:height="60dp"
+        android:background="@drawable/btn_ellipses"
+        android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="New"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/saveCommand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/command"
+        android:layout_alignStart="@+id/newCommand"
+        android:layout_marginStart="0dp"
+        android:height="60dp"
+        android:background="@drawable/btn_ellipses"
+        android:drawableLeft="@drawable/ic_save_black_24dp"
+        android:drawablePadding="6dp"
+        android:enabled="false"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/command"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="37dp"
+        android:background="@drawable/rect"
+        android:gravity="center|center_vertical"
+        android:text="choose option .. "
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:id="@+id/commandsList"
+        android:layout_height="381dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+</RelativeLayout>
